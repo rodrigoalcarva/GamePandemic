@@ -1,0 +1,509 @@
+html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+body{
+  background-color: #494c4f;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+div#navbar{
+  width: 100%;
+  height: 15%;
+}
+
+div#navEsq{
+  width: 25%;
+  height: 100%;
+  background-color: #2D2F31;
+  float: left;
+  position: relative;
+}
+
+div#navCt{
+  width: 50%;
+  height: 100%;
+  background-color: #2D2F31;
+  float: left;
+  font-family: Rajdhani;
+  position: relative;
+}
+
+#navCt ul{
+  margin-left: 10%;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  display: flex;
+}
+
+#navCt ul li{
+  list-style: none;
+  padding: 5%;
+}
+
+#navCt ul li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #fff;
+  position: relative;
+  padding: 0px;
+  po
+}
+
+#navCt ul li a:hover{
+  color:#F2B026;
+
+}
+
+#navCt ul li a span:first-child:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  background: transparent;
+  border-top: 2px solid #F2B026;
+  border-left: 2px solid #F2B026;
+  transition: .2s;
+  opacity: 0;
+}
+
+#navCt ul li a:hover span:first-child:before{
+  top: -10px;
+  left: -10px;
+  opacity: 1;
+}
+
+
+#navCt ul li a span:first-child:after{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 8px;
+  height: 8px;
+  background: transparent;
+  border-top: 2px solid #F2B026;
+  border-right: 2px solid #F2B026;
+  transition: .2s;
+  opacity: 0;
+}
+
+#navCt ul li a:hover span:first-child:after{
+  top: -10px;
+  right: -10px;
+  opacity: 1;
+}
+
+#navCt ul li a span:last-child:before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  background: transparent;
+  border-bottom: 2px solid #F2B026;
+  border-left: 2px solid #F2B026;
+  transition: .2s;
+  opacity: 0;
+}
+
+#navCt ul li a:hover span:last-child:before{
+  bottom: -10px;
+  left: -10px;
+  opacity: 1;
+}
+
+#navCt ul li a span:last-child:after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 8px;
+  height: 8px;
+  background: transparent;
+  border-bottom: 2px solid #F2B026;
+  border-right: 2px solid #F2B026;
+  transition: .2s;
+  opacity: 0;
+}
+
+div#navDir{
+  width: 25%;
+  height: 100%;
+  background-color: #2D2F31;
+  float: left;
+  font-size: 10px;
+  position: relative;
+}
+
+#navDir > button {
+  font-family: Rajdhani;
+  width: 67%;
+  font-size: 25px;
+  margin-top: 5%;
+}
+
+#navDir ul {
+  width: 100%;
+  top: 84.5%;
+  height: 268%;
+  left: -12px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+
+#logFeito{
+  width: 90%;
+  height: 80%;
+  margin-top: 3%;
+  margin-left: 6%;
+  border-radius: 3%;
+  background-color: #212223;
+
+}
+
+#cimaDiv > p {
+  font-family: Rajdhani;
+  font-size: 20px;
+  color: white;
+  margin-left: 2.5%;
+}
+
+#cimaDiv{
+  width: 100%;
+  height: 30%;
+}
+
+#baixoDiv{
+  width: 100%;
+  height: 70%;
+}
+
+#userPage{
+  width: 45%;
+  height: 90%;
+  margin: 0;
+  margin-left: 2.5%;
+  float: left;
+  border: 2px inset orange;
+  font-family: Rajdhani;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  line-height: 360%;
+  cursor: pointer;
+}
+
+#userPage:hover{
+  background-color: orange;
+}
+
+#logoutB{
+  width: 45%;
+  height: 90%;
+  float: left;
+  margin-left: 5%;
+  border: 2px inset orange;
+  font-family:Rajdhani;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  line-height: 360%;
+  text-decoration: none;
+}
+
+#logoutB:hover{
+  background-color: orange;
+}
+
+img#logo{
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 1.75%;
+  border-radius: 5%;
+}
+
+
+button[name=login] {
+  width: 100%;
+  margin-top: 5%;
+  margin-left: 0;
+  padding: 10px 0;
+  font-family: Rajdhani;
+}
+
+#navCt ul li a:hover span:last-child:after{
+  bottom: -10px;
+  right: -10px;
+  opacity: 1;
+}
+
+.container{
+  width: 100%;
+  height: 85%;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel {
+  height: 100%;
+}
+
+.carousel-inner {
+  height: 100%;
+}
+
+.carousel-inner .item {
+  height: 100%
+}
+
+.carousel-inner .item img {
+  height: 100%;
+}
+
+.btn {
+  width: 40%;
+  margin-left: 27%;
+  margin-bottom: 2%;
+  padding: 20px 0;
+  text-align: center;
+  float: left;
+  cursor: pointer;
+  background: #870101;
+  border: 1px solid #870101;
+  position: relative;
+}
+
+.btn p {
+  color: white;
+  font-family: Rajdhani;
+  font-weight: 900;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+.BorderTopBottom:before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 3px;
+  top: -6px;
+  left: -7px;
+  background: white;
+  transition: all 0.5s ease;
+}
+
+.BorderTopBottom:after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 3px;
+  bottom: -6px;
+  right: -7px;
+  background: white;
+  transition: all 0.5s ease;
+}
+
+.BorderLeftRight:before {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: -7px;
+  width: 3px;
+  height: 25px;
+  background: white;
+  transition: all 0.5s ease;
+}
+
+.BorderLeftRight:after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  right: -7px;
+  width: 3px;
+  height: 25px;
+  background:white;
+  transition: all 0.5s ease;
+}
+
+.btn:hover .BorderTopBottom:before,
+.btn:hover .BorderTopBottom:after {
+  width: 184px;
+  transition: all 0.5s ease;
+}
+
+.btn:hover .BorderLeftRight:before,
+.btn:hover .BorderLeftRight:after {
+  height: 57px;
+  transition: all 0.5s ease;
+}
+
+
+#register1{
+  width: 100%;
+  margin-left: 0;
+  margin-top: 9%;
+  font-family: Rajdhani;
+  color: white;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+#register1:hover{
+  background-color: #286090;
+  border-color: #204d74;
+}
+
+.dropdown-menu > li > a {
+  font-size: 20px;
+}
+
+.modal-title{
+  text-align: center;
+}
+
+#register > .modal-dialog > .modal-content > .modal-body > .form-group > label{
+  margin-top: 1%;
+  font-size: 15px;
+  text-decoration: underline;
+}
+#register > .modal-dialog > .modal-content > .modal-body > .form-group label:first-child{
+  margin-top: -1%;
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+/* ChatRoom */
+
+div#chatRoom{
+  width: 15.6%;
+  height: 5%;
+  background-color: #494c4f;
+  border-top: 3px solid #F2B026;
+  border-left: 3px solid #F2B026;
+  border-right: 3px solid #F2B026;
+  border-top-left-radius: 8%;
+  border-top-right-radius: 8%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 2%;
+  color: white;
+  text-align: center;
+  font-family: Rajdhani;
+  font-size: 20px;
+  transition: 1s;
+  cursor: pointer;
+}
+
+div#chatRoom > p{
+  margin: 0;
+  top: 50%;
+}
+
+div#chatRoom:hover{
+  font-size: 23px;
+  transition: 1s;
+}
+
+.dropup-content {
+    display: none;
+    position: absolute;
+    background-color: #393b3d;
+    min-width: 15%;
+    height: 40%;
+    bottom: 5.9%;
+    right: 0;
+    margin-right: 2%;
+    z-index: 1;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+
+}
+
+#chatRoomTitle{
+  width: 100%;
+  height: 10%;
+  font-family: Rajdhani;
+  background-color: #393b3d;
+  border-bottom: 1px solid #F2B026;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
+#messagesChat{
+  font-family: Rajdhani;
+  width: 100%;
+  height: 70%;
+  border-bottom: 1px solid #F2B026;
+  background-color: #393b3d;
+  overflow: auto;
+}
+
+#messagesChat::-webkit-scrollbar {
+    width: 12px;
+}
+
+#messagesChat::-webkit-scrollbar-track{
+	-webkit-box-shadow: inset 0 0 6px rgba(1,1,1,1.3);
+	border-radius: 10px;
+  background-color: #666666;
+
+}
+
+#sendMessage{
+  font-family: Rajdhani;
+  width: 100%;
+  height: 20%;
+  background-color: #393b3d;
+  overflow: auto;
+}
+
+#sendMessage > form > input{
+  margin-left: 3%;
+  margin-top: 3.5%;
+  width: 70%;
+  padding-bottom: 10%;
+}
+
+#sendMessage > form > button{
+  margin-top: 4%;
+  padding-bottom: 10%;
+}
+
+.messageUser{
+  margin-left: 5%;
+  width: 90%;
+  height: 30%;
+  margin-bottom: 2%;
+  background-color: white;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+  -webkit-box-shadow: 0px -1px 71px 10px rgba(0,0,0,0.65);
+  -moz-box-shadow: 0px -1px 71px 10px rgba(0,0,0,0.65);
+  box-shadow: 0px -1px 71px 10px rgba(0,0,0,0.65);
+}
+
+.userTitle{
+  width: 100%;
+  margin-top: 5%;
+  height: 25%;
+  border-bottom: 1px solid orange;
+  font-weight: bold;
+}
+
+.loText{
+  width: 100%;
+  height: 70%;
+}

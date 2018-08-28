@@ -1,0 +1,162 @@
+#cima{
+  width: 90%;
+  height: 55%;
+  margin-left: 5%;
+}
+
+#baixo{
+  width: 90%;
+  height: 40%;
+  margin-left: 5%;
+}
+
+#cimaEsq{
+  width: 30%;
+  height: 90%;
+  margin-top:2%;
+  float: left;
+  margin-left: 2%;
+  background-color: #494c4f;
+  border: 6px solid #F2B026;
+  border-radius: 2%;
+  -webkit-box-shadow: 0px -1px 71px 10px rgba(0,0,0,0.65);
+  -moz-box-shadow: 0px -1px 71px 10px rgba(0,0,0,0.65);
+  box-shadow: 0px -1px 71px 10px rgba(0,0,0,0.65);
+}
+#cimaDir{
+  width: 65%;
+  height: 90%;
+  margin-top:2%;
+  margin-left: 1%;
+  float: left;
+  background-color: #494c4f;
+  border: 6px solid #F2B026;
+  border-radius: 2%;
+  -webkit-box-shadow: 0px -1px 71px 10px rgba(0,0,0,0.65);
+  -moz-box-shadow: 0px -1px 71px 10px rgba(0,0,0,0.65);
+  box-shadow: 0px -1px 71px 10px rgba(0,0,0,0.65);
+}
+
+#baixoMeio{
+  width: 96%;
+  height: 100%;
+  margin-left: 2%;
+  margin-top: 1%;
+  background-color: #494c4f;
+  border: 6px solid #F2B026;
+  border-radius: 2%;
+  -webkit-box-shadow: 0px -1px 71px 10px rgba(0,0,0,0.65);
+  -moz-box-shadow: 0px -1px 71px 10px rgba(0,0,0,0.65);
+  box-shadow: 0px -1px 71px 10px rgba(0,0,0,0.65);
+}
+
+#foto{
+  width: 76%;
+  height: 96%;
+  margin-left: 12%;
+  margin-top: 1.4%;
+  border: 9px solid white;
+  border-radius: 50%;
+}
+
+#middle{
+  opacity: 0;
+  transform: translate(0%, -100%);
+  transition: .5s ease;
+  width: 100%;
+  height: 100%;
+  background-color: orange;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#edit{
+  margin-left: 39%;
+  margin-top: 39%;
+}
+
+#foto > img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  transition: .5s ease;
+}
+
+#foto:hover img{
+  opacity: 1
+}
+
+#foto:hover #middle{
+  opacity: 0.8;
+}
+
+#textoDiv{
+  width: 98%;
+  height: 90%;
+  margin-left: 1%;
+  margin-top: 1%;
+}
+
+#jogosJogados{
+  width: 33.3%;
+  height: 100%;
+  margin-left: 0.05%;
+  float: left;
+  text-align: center;
+  border-right: 3px solid #F2B026;
+}
+
+#vitorias{
+  width: 33.3%;
+  height: 100%;
+  float: left;
+  text-align: center;
+  border-right: 3px solid #F2B026;
+}
+
+#derrotas{
+  width: 33.3%;
+  height: 100%;
+  float: left;
+  text-align: center;
+
+}
+
+h1{
+  margin:0;
+  padding: 0;
+  color: white;
+  font-family: Rajdhani;
+  transform: translate(0%,220%);
+}
+
+.info{
+  width: 96%;
+  height: 20%;
+  margin-left: 2%;
+  border-bottom: 3px solid #F2B026;
+}
+
+.info:last-child{
+  border-bottom: 0px ;
+}
+
+h3{
+  margin:0;
+  padding: 0;
+  color: white;
+  margin-top: 2%;
+  font-family: Rajdhani;
+  float: left;
+}
+
+h4{
+  margin:0;
+  padding: 0;
+  color: white;
+  margin-top: 2.6%;
+  margin-left: 1%;
+  font-family: Rajdhani;
+  float: left;
+  color:  #c2c2d6;
+}

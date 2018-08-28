@@ -1,0 +1,7 @@
+AuthType Basic
+
+AuthName "Acesso Autenticado"
+
+AuthUserFile /home/asw002/public_html/Pandemic/adminPage/.htpasswd
+
+Require valid-user

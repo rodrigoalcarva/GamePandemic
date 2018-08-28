@@ -1,0 +1,569 @@
+html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+body{
+  background-color: #494c4f;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  color: white;
+  font-family: Rajdhani;
+}
+#tables{
+  width: 100%;
+  height: 67%;
+  margin-bottom: 0.3%;
+  font-family: Rajdhani;
+}
+
+#tables1{
+  width: 98%;
+  height: 96%;
+  margin-left: 2%;
+}
+
+#tables2{
+  width: 100%;
+  height: 7%;
+  border: 3px solid rgba(255,165,0,0.8);
+}
+
+#textMainCity{
+  margin-left: 24%;
+  width: 7%;
+  height: 80%;
+  float: left;
+}
+
+#textMainCity > h4{
+  margin: 0;
+  margin-left: 1%;
+  padding: 0;
+  font-weight: bold;
+}
+
+#mainCityClick{
+  width: 10%;
+  height: 80%;
+  float: left;
+}
+
+#mainCity{
+  text-align: center;
+}
+
+#textOtherCity{
+  width: 9%;
+  height: 80%;
+  float: left;
+}
+
+#textOtherCity > h4{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+#otherCity{
+  width: 35%;
+  height: 80%;
+  float: left;
+}
+
+#otherCity > p{
+  float: left;
+  margin-right: 5%;
+}
+
+#actions{
+  width: 100%;
+  height: 31%;
+}
+
+#blue{
+  width: 48%;
+  height: 50%;
+  float: left;
+  margin-right:0.5%;
+  font-size: 11.5px;
+}
+
+#red{
+  width: 48%;
+  height: 50%;
+  float: left;
+  margin-left: 1.5%;
+  font-size: 11.5px;
+}
+
+#yellow{
+  width: 48%;
+  height: 50%;
+  float: left;
+  margin-right:0.5%;
+  margin-top: 0.7%;
+  font-size: 11.5px;
+}
+
+#black{
+  width: 48%;
+  height: 50%;
+  float: left;
+  margin-left: 1.5%;
+  margin-top: 0.7%;
+  font-size: 11.5px;
+}
+
+table, th, td {
+    border: 1px solid orange;
+    margin-top: 0.2%;
+    border-collapse: collapse;
+
+}
+th, td {
+    text-align: center;;
+    color: white;
+}
+
+.preenchido > th{
+  background-color: orange;
+
+}
+
+.cidadeB > th{
+  background-color: rgba(0, 0, 255, 0.1);
+  color: rgba(255,255,255,0.8);
+  cursor: pointer;
+}
+
+.cidadeR > th{
+  background-color: rgba(255, 0, 0, 0.1);
+  color: rgba(255,255,255,0.8);
+  cursor: pointer;
+}
+
+.cidadeY > th{
+  background-color: rgba(255,255,0, 0.1);
+  color: rgba(255,255,255,0.8);
+  cursor: pointer;
+}
+
+.cidadeBL > th{
+  background-color: rgba(0,0,0,0.1);
+  color: rgba(255,255,255,0.8);
+  cursor: pointer;
+}
+
+#infGer{
+  width: 15.85%;
+  height: 100%;
+  float: left;
+}
+
+#controlos{
+  width: 75.15%;
+  height: 100%;
+  float: left;
+}
+
+#infDesistir{
+  width: 9%;
+  height: 100%;
+  float: left;
+}
+
+.infGer1{
+  width: 100%;
+  height: 20%;
+  border: 1px solid white;
+  background-color: rgba(255,165,0,0.8);
+  text-align: center;
+}
+
+#losComandos{
+  width: 40%;
+  height: 80%;
+  margin-top: 2%;
+  margin-left: 3%;
+  background-color: #494c4f;
+  float: left;
+  border: 6px solid #F2B026;
+  border-radius: 2%;
+  -webkit-box-shadow: 0px -1px 71px 10px rgba(0,0,0,0.65);
+  -moz-box-shadow: 0px -1px 71px 10px rgba(0,0,0,0.65);
+  box-shadow: 0px -1px 71px 10px rgba(0,0,0,0.65);
+}
+
+#minhasCartas{
+  width: 20%;
+  height: 80%;
+  margin-top: 2%;
+  margin-left: 3%;
+  background-color: #494c4f;
+  float: left;
+  border: 6px solid #F2B026;
+  border-radius: 2%;
+  -webkit-box-shadow: 0px -1px 71px 10px rgba(0,0,0,0.65);
+  -moz-box-shadow: 0px -1px 71px 10px rgba(0,0,0,0.65);
+  box-shadow: 0px -1px 71px 10px rgba(0,0,0,0.65);
+}
+
+#cartasOutros{
+  width: 28%;
+  height: 80%;
+  margin-top: 2%;
+  margin-left: 3%;
+  background-color: #494c4f;
+  float: left;
+  border: 6px solid #F2B026;
+  border-radius: 2%;
+  -webkit-box-shadow: 0px -1px 71px 10px rgba(0,0,0,0.65);
+  -moz-box-shadow: 0px -1px 71px 10px rgba(0,0,0,0.65);
+  box-shadow: 0px -1px 71px 10px rgba(0,0,0,0.65);
+}
+
+#esqCom{
+  width: 33.4%;
+  height: 100%;
+  float: left;
+}
+
+
+#comando1{
+  width: 100%;
+  height: 33.4%;
+  cursor: pointer;
+}
+
+#comando1 > img{
+  width: 25%;
+  height: 55%;
+  margin-top: 8%;
+  margin-left: 15%;
+  float: left;
+}
+
+#comando1 > p{
+  margin-top: 12%;
+  margin-left: 8%;
+  float: left;
+}
+
+#comando2{
+  width: 100%;
+  height: 33.3%;
+  border-top: 1px solid #F2B026;
+  cursor: pointer;
+}
+
+#comando2 > img{
+  width: 25%;
+  height: 55%;
+  margin-top: 8%;
+  margin-left: 15%;
+  float: left;
+}
+
+#comando2 > p{
+  margin-top: 7%;
+  margin-left: 8%;
+  float: left;
+  text-align: center;
+}
+
+#comando3{
+  width: 100%;
+  height: 33.3%;
+  border-top: 1px solid #F2B026;
+  cursor: pointer;
+}
+
+#comando3 > img{
+  width: 25%;
+  height: 55%;
+  margin-top: 8%;
+  margin-left: 15%;
+  float: left;
+}
+
+#comando3 > p{
+  margin-top: 7%;
+  margin-left: 8%;
+  float: left;
+  text-align: center;
+}
+
+#cenCom{
+  width: 33.3%;
+  height: 100%;
+  float: left;
+}
+
+#comando4{
+  width: 100%;
+  height: 50%;
+  border-left: 1px solid #F2B026;
+  cursor: pointer;
+}
+
+#comando4 > img{
+  width: 35%;
+  height: 55%;
+  margin-top: 11%;
+  margin-left: 9%;
+  float: left;
+}
+
+#comando4 > p{
+  margin-top: 16%;
+  margin-left: 7%;
+  float: left;
+  text-align: center;
+}
+
+#comando5{
+  width: 100%;
+  height: 50%;
+  border-top: 1px solid #F2B026;
+  border-left: 1px solid #F2B026;
+  cursor: pointer;
+}
+#comando5 > img{
+  width: 35%;
+  height: 55%;
+  margin-top: 11%;
+  margin-left: 8%;
+  float: left;
+}
+
+#comando5 > p{
+  margin-top: 16%;
+  margin-left: 6%;
+  float: left;
+  text-align: center;
+}
+
+#comando1:hover,#comando2:hover,#comando3:hover,#comando4:hover,#comando5:hover{
+  background-color: rgba(255,165,0,0.2);
+}
+
+#dirCom{
+  width: 33.3%;
+  height: 100%;
+  float: left;
+  border-left: 3px solid #F2B026;
+
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+#cima{
+  width: 100%;
+  height: 50%;
+}
+
+#cima > img{
+  width: 60%;
+  height: 57%;
+  margin-left: 20%;
+  margin-top: 20%;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+#baixo{
+  width: 100%;
+  height: 50%;
+}
+
+#baixo > img{
+  width: 60%;
+  height: 57%;
+  margin-left: 20%;
+  margin-top: 16%;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+#desistir:hover{
+  -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+  transition: 0.5s ease-in-out;
+}
+
+#pass:hover{
+  -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+  transition: 0.5s ease-in-out;
+}
+
+p{
+  padding: 0;
+  margin: 0;
+}
+
+h5,h4{
+  margin: 0;
+  padding: 0;
+}
+
+h5{
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+.atualJog{
+  width: 50%;
+  height: 50%;
+  float: left;
+  animation: blink 2s infinite;
+}
+
+#jog1{
+  width: 50%;
+  height: 50%;
+  float: left;
+}
+@-webkit-keyframes blink {
+  0%, 49% {
+    background-color: transparent;
+  }
+  50%, 100% {
+    background-color: rgba(73, 76, 79,0.7);
+  }
+}
+#jog2{
+  width: 50%;
+  height: 50%;
+  float: left;
+}
+#jog3{
+  width: 50%;
+  height: 50%;
+  float: left;
+}
+#jog4{
+  width: 50%;
+  height: 50%;
+  float: left;
+}
+
+#myModal{
+  margin-top: 14%;
+}
+
+.modal-content{
+  border: 3px solid orange;
+  background-color: #494c4f;
+}
+
+.modal-title{
+  text-decoration: underline;
+}
+
+.modal-body{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  font-size: 30px;
+}
+
+.modal-footer > button{
+  float: left;
+  margin: 0;
+  margin-left: 10%;
+  color: white;
+  border: 3px solid orange;
+  background-color: #494c4f;
+}
+
+#dirCom::-webkit-scrollbar {
+    width: 12px;
+}
+
+#dirCom::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(1,1,1,1.3);
+	border-radius: 10px;
+  background-color: #666666;
+
+}
+
+#headerCartas{
+  width: 100%;
+  height: 20%;
+  text-align: center;
+}
+
+#headerCartas > h3{
+  margin-top: 4%;
+  text-decoration: underline;
+}
+
+#lasCartas{
+  width: 100%;
+  height: 76%;
+  text-align: center;
+  overflow: auto;
+}
+
+.cartasJog{
+  width: 100%;
+  height: 32%;
+}
+
+.cartasJog > h4 {
+}
+
+
+.cartasJog > p {
+
+}
+
+.cardsPlayers{
+  width: 100%;
+  float: left;
+}
+
+#yellowCured{
+  width: 50%;
+  height: 50%;
+  float: left;
+}
+#blueCured{
+  width: 50%;
+  height: 50%;
+  float: left;
+}
+
+#blackCured{
+  width: 50%;
+  height: 50%;
+  float: left;
+}
+
+#redCured{
+  width: 50%;
+  height: 50%;
+  float: left;
+}
+
+.diseaseCured{
+  background-color: rgba(73, 76, 79,0.7);
+}
+
+.btn1 {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  float: left;
+  cursor: pointer;
+  background: grey;
+  border: 1px solid orange;
+  position: relative;
+}

@@ -1,0 +1,277 @@
+html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+body{
+  background-color: #494c4f;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+#corpo{
+  width: 100%;
+  height: 85%;
+  margin: 0;
+  padding: 0;
+  font-family: Rajdhani;
+}
+
+div#navbarGame{
+  width: 100%;
+  height: 10%;
+}
+
+div#navEsq{
+  width: 25%;
+  height: 100%;
+  background-color: #2D2F31;
+  float: left;
+  position: relative;
+}
+
+div#navCt{
+  width: 50%;
+  height: 100%;
+  background-color: #2D2F31;
+  float: left;
+  font-family: Rajdhani;
+  position: relative;
+}
+
+div#navDir{
+  width: 25%;
+  height: 100%;
+  background-color: #2D2F31;
+  float: left;
+  font-size: 10px;
+  position: relative;
+}
+
+#logoGame{
+    width: 30%;
+    margin-left: 25%;
+    margin-top: 1.75%;
+    border-radius: 5%;
+}
+
+#roomName{
+  width: 60%;
+  height: 10%;
+}
+
+#roomName > h2{
+  padding: 1%;
+  margin: 0;
+  margin-left: 1%;
+  color: white;
+  float: left;
+}
+
+#thePlayers{
+  width: 100%;
+  height: 95.9%;
+}
+
+div#player1{
+  margin-left: 2%;
+  border-right: 3px solid #F2B026;
+  margin-top: 2%;
+  width: 24%;
+  height: 90%;
+  float: left;
+}
+
+#player1Photo{
+  width: 70%;
+  height: 47%;
+  margin-left: 15%;
+  margin-top: 5%;
+  border: 6px solid #F2B026;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 41px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 41px -1px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 41px -1px rgba(0,0,0,0.75);
+}
+
+#player1Photo > img{
+  width: 100%;
+  height: 100%;
+  border-radius: 51%;
+}
+
+#player2Photo > img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+#player3Photo > img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+#player4Photo > img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+#player2Photo{
+  width: 70%;
+  height: 47%;
+  margin-left: 15%;
+  margin-top: 5%;
+  border: 6px solid #F2B026;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 41px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 41px -1px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 41px -1px rgba(0,0,0,0.75);
+}
+
+#player3Photo{
+  width: 70%;
+  height: 47%;
+  margin-left: 15%;
+  margin-top: 5%;
+  border: 6px solid #F2B026;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 41px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 41px -1px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 41px -1px rgba(0,0,0,0.75);
+}
+
+#player4Photo{
+  width: 70%;
+  height: 47%;
+  margin-left: 15%;
+  margin-top: 5%;
+  border: 6px solid #F2B026;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 41px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 41px -1px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 41px -1px rgba(0,0,0,0.75);
+}
+
+div#player2{
+  border-right: 3px solid #F2B026;
+  margin-top: 2%;
+  width: 24%;
+  height: 90%;
+  float: left;
+}
+div#player3{
+  border-right: 3px solid #F2B026;
+  margin-top: 2%;
+  width: 24%;
+  height: 90%;
+  float: left;
+}
+div#player4{
+  margin-top: 2%;
+  width: 24%;
+  height: 90%;
+  float: left;
+}
+
+.playerNames{
+  width: 60%;
+  height: 8%;
+  margin-left: 20%;
+  margin-top: 15%;
+  text-align: center;
+}
+
+.playerNames > h2{
+  margin: 0;
+  color: white;
+}
+
+.playerStatistics{
+  width: 25%;
+  height: 20%;
+  margin-left: 37.5%;
+  padding-top: 5%;
+  padding-left: 4%;
+}
+
+.playerStatistics > p{
+  font-size: 25px;
+  color: white;
+}
+
+
+#host{
+  width: 20%;
+  height: 11%;
+  margin-left: 39%;
+}
+
+#host > img{
+  width: 100%;
+  height: 100%;
+}
+
+#roomName > .btn{
+  margin-left: 2%;
+  margin-top: 1.2%;
+  padding: 0;
+  float: left;
+  width: 12%;
+  height: 50%;
+  background-color: #F2B026;
+  border: 1px solid #F2B026;
+}
+
+#roomName > .btn >h5{
+  padding: 0;
+  margin: 0;
+  margin-top: 7%;
+}
+
+#navDir > .btn{
+  width: 50%;
+  height: 80%;
+  margin: 0;
+  margin-left: 16%;
+  padding: 0;
+  background-color: #F2B026;
+  font-family: Rajdhani;
+  border: 1px solid #F2B026;
+  text-align: center;
+  line-height: 80%;
+  float: left;
+  margin-top: 1.7%;
+}
+
+#navDir > .btn > h2{
+  padding: 0;
+  margin: 0;
+  margin-top: 5%;
+
+}
+
+#time{
+
+  width: 30%;
+  height: 80%;
+  margin-top: 3.5%;
+  margin-right: 1%;
+  color: white;
+  font-family: Rajdhani;
+  text-align: center;
+  float: right;
+}
+
+#time >h5{
+  margin: 0;
+  padding: 0;
+}
+
+#time > h2{
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,120 @@
+#containerRules{
+  width: 100%;
+  height: 85%;
+  margin: 0;
+  padding: 0;
+  }
+
+#lasRegras{
+  width: 94%;
+  height: 98%;
+  margin-left: 3%;
+}
+
+#r1{
+  width: 40%;
+  height: 45%;
+  background-color: #494c4f;
+  float: left;
+  margin-top:1%;
+  border: 6px solid #F2B026;
+  border-radius: 2%;
+  -webkit-box-shadow: 0px -1px 71px 10px rgba(0,0,0,0.65);
+  -moz-box-shadow: 0px -1px 71px 10px rgba(0,0,0,0.65);
+  box-shadow: 0px -1px 71px 10px rgba(0,0,0,0.65);
+  color: white;
+  font-family: Rajdhani;
+}
+
+#r2{
+  width: 40%;
+  height: 45%;
+  background-color: #494c4f;
+  float: left;
+  margin-top:1%;
+  margin-left: 1%;
+  border: 6px solid #F2B026;
+  border-radius: 2%;
+  -webkit-box-shadow: 0px -1px 71px 10px rgba(0,0,0,0.65);
+  -moz-box-shadow: 0px -1px 71px 10px rgba(0,0,0,0.65);
+  box-shadow: 0px -1px 71px 10px rgba(0,0,0,0.65);
+  color: white;
+  font-family: Rajdhani;
+}
+
+#r3{
+  width: 18%;
+  height: 45%;
+  background-color: #494c4f;
+  float: left;
+  margin-top:1%;
+  margin-left: 1%;
+  border: 6px solid #F2B026;
+  border-radius: 2%;
+  -webkit-box-shadow: 0px -1px 71px 10px rgba(0,0,0,0.65);
+  -moz-box-shadow: 0px -1px 71px 10px rgba(0,0,0,0.65);
+  box-shadow: 0px -1px 71px 10px rgba(0,0,0,0.65);
+  color: white;
+  font-family: Rajdhani;
+}
+
+#r4{
+  width: 30%;
+  height: 50%;
+  background-color: #494c4f;
+  float: left;
+  border: 6px solid #F2B026;
+  border-radius: 2%;
+  margin-top: 1%;
+  -webkit-box-shadow: 0px -1px 71px 10px rgba(0,0,0,0.65);
+  -moz-box-shadow: 0px -1px 71px 10px rgba(0,0,0,0.65);
+  box-shadow: 0px -1px 71px 10px rgba(0,0,0,0.65);
+  color: white;
+  font-family: Rajdhani;
+}
+
+#r5{
+  width: 30%;
+  height: 50%;
+  background-color: #494c4f;
+  float: left;
+  border: 6px solid #F2B026;
+  border-radius: 2%;
+  margin-top: 1%;
+  margin-left: 1%;
+  -webkit-box-shadow: 0px -1px 71px 10px rgba(0,0,0,0.65);
+  -moz-box-shadow: 0px -1px 71px 10px rgba(0,0,0,0.65);
+  box-shadow: 0px -1px 71px 10px rgba(0,0,0,0.65);
+  color: white;
+  font-family: Rajdhani;
+
+}
+#r6{
+  width: 38%;
+  height: 50%;
+  background-color: #494c4f;
+  float: left;
+  border: 6px solid #F2B026;
+  border-radius: 2%;
+  margin-top: 1%;
+  margin-left: 1%;
+  -webkit-box-shadow: 0px -1px 71px 10px rgba(0,0,0,0.65);
+  -moz-box-shadow: 0px -1px 71px 10px rgba(0,0,0,0.65);
+  box-shadow: 0px -1px 71px 10px rgba(0,0,0,0.65);
+  color: white;
+  font-family: Rajdhani;
+}
+
+h4{
+  margin-left: 2%;
+}
+
+#r1Esq{
+  width: 75%;
+  height: 100%;
+}
+
+#r2Esq{
+  width: 25%;
+  height: 100%;
+}

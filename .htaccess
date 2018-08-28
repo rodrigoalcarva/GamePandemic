@@ -1,0 +1,6 @@
+AuthUserFile /home/asw002/public_html/Pandemic/.htpasswd
+AuthName "Acesso Autenticado"
+AuthType basic
+<files "adminPage.php">
+require valid-user
+</files>
